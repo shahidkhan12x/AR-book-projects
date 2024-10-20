@@ -11,7 +11,14 @@
     <a-scene embedded arjs>
         <!-- This is where we define the AR marker -->
         <a-marker preset="hiro">
-            <a-video src="engine.mp4" width="4" height="2" position="0 0 0" rotation="-90 0 0" autoplay="true" loop="true"></a-video>
+             <a-video 
+          src="engine.mp4" 
+          width="1.2"   <!-- Adjusted width to be smaller -->
+          height="0.8"  <!-- Adjusted height to be smaller -->
+          position="0 0 0" 
+          rotation="-90 0 0" 
+          autoplay="true" 
+          loop="true">
         </a-marker>
         <a-entity camera></a-entity>
     </a-scene>
